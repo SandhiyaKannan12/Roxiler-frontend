@@ -1,0 +1,59 @@
+/* src/components/TransactionsTable.css */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+  text-align: left;
+}
+
+table thead {
+  background-color: #f2f2f2;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+table th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.navigation-buttons {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-end; /* Align the button to the right */
+}
+
+.navigation-buttons button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #91b0d1;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none; /* Remove underline from Link */
+}
+
+.navigation-buttons button:hover {
+  background-color: #b7d4f3;
+}
+
+.navigation-buttons a {
+  color: rgb(10, 10, 10); /* Ensure link text is white */
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif; /* Remove underline */
+}
